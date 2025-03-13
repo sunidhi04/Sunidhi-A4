@@ -2354,6 +2354,7 @@ GameObject:
   - component: {fileID: 1165002140}
   - component: {fileID: 1165002139}
   - component: {fileID: 1165002138}
+  - component: {fileID: 1165002142}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2444,6 +2445,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1165002142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165002137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3063c838ef66a4db8fb1bfb3f6a220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  current: {fileID: 1505784459}
+  toUpdate: {fileID: 446657636}
+  coinTextContainer: {fileID: 823269236}
+  duration: 0.4
 --- !u!1001 &1299876373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2974,6 +2991,7 @@ GameObject:
   - component: {fileID: 1623929138}
   - component: {fileID: 1623929139}
   - component: {fileID: 1623929140}
+  - component: {fileID: 1623929141}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3030,7 +3048,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  scoreText: {fileID: 1623694215}
+  coinCounter: {fileID: 1623929141}
+--- !u!114 &1623929141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623929137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3063c838ef66a4db8fb1bfb3f6a220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  current: {fileID: 1505784459}
+  toUpdate: {fileID: 446657636}
+  coinTextContainer: {fileID: 823269236}
+  duration: 0.4
 --- !u!1001 &1765487722
 PrefabInstance:
   m_ObjectHideFlags: 0
